@@ -236,5 +236,3 @@ El patrón aplicado asegura un código limpio y escalable:
 | **Servicio (`ZipService`)** | Lógica de negocio de la descompresión. | `JSZip`, `FileReader`, `try/catch`. |
 
 De esta manera, la lógica de descompresión puede ser usada por cualquier otro componente en la aplicación sin duplicar el código ni acoplarse a `JSZip`.
-
-¿Te gustaría ahora que incorporemos la funcionalidad de **compresión** (crear un ZIP) al `ZipService` para hacerlo completamente bidireccional?
